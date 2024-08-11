@@ -60,12 +60,10 @@ def process_dwg(file_path):
 
         print("\n" + "-"*50 + "\n")
 
-
         # Выводим список уникальных ObjectName
         print(f"File: {file_path}")
         print("Unique ObjectNames in the DWG file:")
-        for object_name in sorted(object_names):
-            print(object_name)
+        icecream.ic(object_names)
 
         print("\n" + "-"*50 + "\n")
 
