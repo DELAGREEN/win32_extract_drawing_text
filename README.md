@@ -1,0 +1,1 @@
+# win32_extract_drawing_text
